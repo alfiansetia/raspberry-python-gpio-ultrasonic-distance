@@ -1,4 +1,5 @@
 KETERANGAN GAMBAR
+<br>MENGGUNAKAN SENSOR UNTRASONIK TIPE HC-SR04
 <br>VCC ke pin 2 (Merah/VCC)
 <br>GND ke Pin 6 (Hitam/GND)
 <br>TRIG to Pin 12 (Hijau/GPIO18)
