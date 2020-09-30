@@ -49,11 +49,13 @@ if __name__ == '__main__':
             time.sleep(0.9)
             #IF TRUE JIKA DISTANCE KURANG DARI 17 MAKA EKS FILE SERVO DAN LAMPU
             if dist < 17:
-                os.system('python /path/servo.py')
-                os.system('python /path/lamp/on.py')
+                print("HIDUP")
+                # os.system('python /path/servo.py')
+                # os.system('python /path/lamp/on.py')
             #ELSE MEMATIKAN LAMPU
             else :
-                os.system('python /path/lamp/off.py')
+                print("MATI")
+                # os.system('python /path/lamp/off.py')
         # Reset by pressing CTRL + C
     except KeyboardInterrupt:
         print("Measurement stopped by User")
